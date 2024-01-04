@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>GeoChallenge</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <!-- Swiper slider-->
+    <link rel="stylesheet" href="vendor/swiper/swiper-bundle.min.css">
+    <!-- Video Player-->
+    <link href="https://vjs.zencdn.net/8.6.1/video-js.css" rel="stylesheet" />
+    <!-- If you'd like to support IE8 (for Video.js versions prior to v7) -->
+    <!-- <script src="https://vjs.zencdn.net/ie8/1.1.2/videojs-ie8.min.js"></script> -->
+    <!-- Google fonts-->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Nunito:400,600,800&amp;display=swap">
+    <!-- Device Mockup-->
+    <link rel="stylesheet" href="css/device-mockups.css">
+    <!-- theme stylesheet-->
+    <link rel="stylesheet" href="css/style.default.css" id="theme-stylesheet">
+    <!-- Custom stylesheet - for your changes-->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <!-- Animations-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  </head>
+  <body>
+    <!-- navbar-->
+    <header class="header">
+      <nav class="navbar navbar-light navbar-expand-lg fixed-top" id="navbar">
+        <div class="container"><a href="/index.html" class="fw-bold h3"><img src="./icons/3d/adventure-game.gif" width="40" height="40"> GeoChallenge</a>
+          <button class="navbar-toggler navbar-toggler-end" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><i class="fas fa-bars"></i></button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav ms-auto">
+              <li class="nav-item"><a class="nav-link link-scroll active" href="./index.html">Home <span class="sr-only">(current)</span></a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#about">About</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#testimonials">Testimonials</a></li>
+              <li class="nav-item"><a class="nav-link link-scroll" href="#contact">Contact</a></li>
+
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <!-- Hero Section-->
+    <section class="hero bg-top py-5" id="hero" style="background: url(img/banner-4.png) no-repeat; background-size: 100% 80%" id="hero">
+      <div class="container py-5 animate__animated animate__fadeIn">
+        <div class="row py-5">
+          <div class="col-lg-5 py-5 animate__animated animate__fadeInLeft">
+            <h3>GeoChallenge: Geography Quiz</h3>
+            <p class="my-4 text-muted"><span class="typedText text-primary fw-bold"></span></p>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item mb-2 mb-lg-0"><a class="btn btn-primary btn-lg px-4" href="./game/GeoChallenge-1_0_1.apk"> <i class="fas fa-download me-3"></i>Direct Download</a></li>
+              <li class="list-inline-item"><a class="btn btn-primary btn-lg px-4" href="#!"> <i class="fab fa-google-play me-3"></i>Google Play</a></li>
+            </ul>
+          </div>
+          <div class="col-lg-6 ml-auto animate__animated animate__fadeInUp animate__slower">
+            <div class="device-wrapper mx-auto me-auto">
+              <div class="device shadow" data-device="iPhoneX" data-orientation="portrait" data-color="black">
+                <div class="screen"><img class="img-fluid" src="img/mobile.jpg" alt=""></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="bg-center py-0 with-pattern-1" id="about" style="background: url(img/service-bg.svg) no-repeat; background-size: cover">
+      <section class="about py-0" data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500">
+        <div class="container">
+          <p class="h6 text-uppercase text-primary">What is it all about?</p>
+
+          <div class="row pb-5 gy-4">
+            <div class="col-lg-12 col-md-12">
+              <div class="row align-items-center gy-5">
+                <div class="col-lg-6" data-aos="fade-right" data-aos-easing="linear" data-aos-duration="1000">
+                  <h2>Take a look of the game</h2>
+                  <p class="text-muted">GeoChallenge: Geography Quiz has exciting game modes for everyone! Join Online Ranked Games and compete against players worldwide. Climb the ranks and earn rewards as you sharpen your geography skills.</p>
+                  <ul class="list-check">
+                    <li class="text-muted mb-2">Free to play</li>
+                    <li class="text-muted mb-2">Online and Offline options</li>
+                  </ul>
+                  <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#VideoBlock">
+                    <i class="fas fa-play-circle me-2"></i>Play video
+                  </button>
+                </div>
+                <div class="col-lg-6">
+                  <div class="row gy-4">
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1400">
+                      <!-- Services Item-->
+                      <div class="card border-0 shadow rounded-lg text-start px-2">
+                        <div class="card-body px py-5">
+                          <img src="./icons/3d/notebook-dynamic-color.png" width="50" height="50" alt="Knowledge">
+                          <h3 class="h5 my-3">Knowledge</h3>
+                          <p class="text-sm mb-0 text-muted">Test your knowledge about the countries.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1800">
+                      <!-- Services Item-->
+                      <div class="card border-0 shadow rounded-lg text-start px-2">
+                        <div class="card-body px py-5">
+                          <img src="./icons/3d/gift-dynamic-color.png" width="50" height="50" alt="Quests">
+                          <h3 class="h5 my-3">Daily Quests </h3>
+                          <p class="text-sm mb-0 text-muted">Login Rewards and different daily quests with gifts.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2200">
+                      <!-- Services Item-->
+                      <div class="card border-0 shadow rounded-lg text-start px-2" >
+                        <div class="card-body px py-5">
+                          <img src="./icons/3d/crown-dynamic-color.png" width="50" height="50" alt="PVP/SinglePlay">
+                          <h3 class="h5 my-3">PVP / Single Player</h3>
+                          <p class="text-sm mb-0 text-muted">Take part on a battle with other players worldwide or play alone.</p>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-6 col-sm-6" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2600">
+                      <!-- Services Item-->
+                      <div class="card border-0 shadow rounded-lg text-start px-2">
+                        <div class="card-body px py-5">
+                          <img src="./icons/3d/euro-dynamic-color.png" width="50" height="50" alt="Ingame Shop">
+                          <h3 class="h5 my-3">In-Game Shop</h3>
+                          <p class="text-sm mb-0 text-muted">Earn coins after completing levels and buy different items from the in-game shop.</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="p-0" id="testimonials" style="background: url(img/testimonials-bg.png) no-repeat; background-size: 40% 100%; background-position: left center">
+        <div class="container text-center"  data-aos="fade-in" data-aos-easing="linear" data-aos-duration="500">
+          <p class="h6 text-uppercase text-primary">Testimonials</p>
+          <h2 class="mb-5">What Our Users Says?</h2>
+          <div class="row">
+            <div class="col-lg-8 mx-auto" data-aos="fade-up" data-aos-anchor-placement="top-bottom" data-aos-easing="linear" data-aos-duration="1500">
+              <div class="swiper testimonials-slider">
+                <div class="swiper-wrapper">
+                  <div class="swiper-slide h-auto">
+                    <div class="mx-3 mx-lg-5 my-5 pt-3">
+                      <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                        <div class="card-body index-forward pt-5 rounded-lg">
+                          <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-1.jpg" alt="" width="100"/></div>
+                          <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <h5 class="mb-0">Sarah Hudson</h5>
+                          <p class="text-primary mb-0 text-sm">Tech Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide h-auto">
+                    <div class="mx-3 mx-lg-5 my-5 pt-3">
+                      <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                        <div class="card-body index-forward pt-5 rounded-lg">
+                          <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-2.png" alt="" width="100"/></div>
+                          <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <h5 class="mb-0">Frank Smith</h5>
+                          <p class="text-primary mb-0 text-sm">Tech Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide h-auto">
+                    <div class="mx-3 mx-lg-5 my-5 pt-3">
+                      <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                        <div class="card-body index-forward pt-5 rounded-lg">
+                          <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-1.jpg" alt="" width="100"/></div>
+                          <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <h5 class="mb-0">Sarah Hudson</h5>
+                          <p class="text-primary mb-0 text-sm">Tech Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="swiper-slide h-auto">
+                    <div class="mx-3 mx-lg-5 my-5 pt-3">
+                      <div class="card shadow rounded-lg px-4 py-5 px-lg-5 with-pattern bg-white border-0">
+                        <div class="card-body index-forward pt-5 rounded-lg">
+                          <div class="testimonial-img"><img class="rounded-circle" src="img/avatar-2.png" alt="" width="100"/></div>
+                          <p class="lead text-muted mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam.</p>
+                          <h5 class="mb-0">Frank Smith</h5>
+                          <p class="text-primary mb-0 text-sm">Tech Developer</p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="swiper-pagination"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+  
+        <section class="with-pattern-1 py-5" id="contact">
+          <div class="container py-5 text-center">
+            <p class="h6 text-uppercase text-primary mt-3 mb-5 py-3">Contact us</p>
+            <h2 class="mb-5">You have a problem or want to say hello? Just fill the form below.</h2>
+            <div class="row align-items-center mt-2 mb-5 gy-5 py-5">
+              <div class="col-lg-6 mt-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="1500"><img class="img-fluid w-100 px-lg-5" src="img/objects.svg" alt=""></div>
+              <div class="col-lg-6 mt-3" data-aos="fade-up" data-aos-anchor-placement="bottom-bottom" data-aos-duration="2000">
+                <form>
+                  <div class="form-floating mb-3">
+                    <input type="text" class="form-control" id="Name" placeholder="Name">
+                    <label for="Name">Name</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <input type="email" class="form-control" id="Input" placeholder="name@example.com">
+                    <label for="Input">Email</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <select class="form-select" id="Select" aria-label="Select what you want to">
+                      <option value="1" selected>Say Hi</option>
+                      <option value="2">Get a Quote</option>
+                    </select>
+                    <label for="Select">Select what you want to</label>
+                  </div>
+                  <div class="form-floating mb-3">
+                    <textarea class="form-control" placeholder="Leave your message here" id="Message" style="height: 100px"></textarea>
+                    <label for="Message">Message</label>
+                  </div>
+                  <div class="d-flex justify-content-center">
+                    <button type="submit" class="btn btn-primary m-2" name="send">Send</button>
+                    <button type="clear" class="btn btn-danger m-2">Clear</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </section>
+      </section>
+
+    </section><a class="scroll-top-btn" id="scrollTop" href="#!"><i class="fas fa-long-arrow-alt-up"></i></a>
+    
+    <footer class="with-pattern-1 position-relative pt-5  animate__animated animate__fadeIn animate__slower">
+      <div class="container py-5">
+        <div class="row gy-4">
+          <div class="col-lg-3"><a href="/index.html" class="fw-bold h3"><img src="./icons/3d/adventure-game.gif" width="40" height="40"> GeoChallenge</a>
+            <p class="text-muted">
+              <span class="fw-bold">GeoChallenge: Geography Quiz</span> offers an exhilarating array of game modes to suit every explorer's preferences! 
+              Engage in thrilling Online Ranked Games, where you can compete head-to-head with players worldwide.</p>
+          </div>
+          <div class="col-lg-4 justify-content-center text-center">
+            <h2 class="h5 mb-4">Quick Links</h2>
+            <div class="d-flex  justify-content-center text-center">
+              <ul class="list-unstyled d-inline-block me-4 mb-0 text-center">
+                <li class="mb-2"><a class="footer-link" href="#!">About us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Contact us</a></li>
+                <li class="mb-2"><a class="footer-link" href="#!">Privacy Policy</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-5 text-center">
+            <h2 class="h5 mb-4">Contact Info</h2>
+            <ul class="list-unstyled me-4 mb-3">
+              <li class="mb-2 text-muted">You can also use the contact form above. </li>
+              <li class="mb-2"><i class="fas fa-square-envelope"></i> <a class="footer-link" href="mailto:Nova@example.com"> nuraykamber92@gmail.com</a></li>
+            </ul>
+            <ul class="list-inline mb-0">
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-facebook-f"></i></a></li>
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-twitter"></i></a></li>
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-linkedin-in"></i></a></li>
+              <li class="list-inline-item"><a class="social-link" href="#!"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="copyrights">       
+        <div class="container text-center py-4">
+          <p class="mb-0 text-muted text-sm"><i class="fa-solid fa-copyright"></i> 2023 - GeoChallenge. Developed by <a href="https://gkdev.org" class="fw-bold text-primary">GKDev</a>.</p>
+        </div>
+      </div>
+    </footer>
+    <!-- Video Modal -->
+      <div class="modal fade" id="VideoBlock" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="VideoBlock" aria-hidden="true">
+        <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+              <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+              <div class="col-lg-12 mx-auto p-2 text-center">
+                <iframe  id="videoIframe" src="https://www.youtube-nocookie.com/embed/MlguzvXLyj4?si=VGI0bcC3HVtozy2e" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    <!-- JavaScript files-->
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+    <script src="vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="https://vjs.zencdn.net/8.6.1/video.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/videojs-youtube/3.0.1/Youtube.js" integrity="sha512-U0OTmn6sp7s4GEL5vB45aX15fnXLydyDeaqAERRbf8DnVgo+ZwhUm674/ozek44R+nvuHgM2779EH2TXyUgrzQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="js/front.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/js/all.min.js" integrity="sha512-GWzVrcGlo0TxTRvz9ttioyYJ+Wwk9Ck0G81D+eO63BaqHaJ3YZX9wuqjwgfcV/MrB2PhaVX9DkYVhbFpStnqpQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      document.addEventListener("DOMContentLoaded", function () {
+        var myModal = new bootstrap.Modal(document.getElementById("VideoBlock"));
+        var iframe = document.getElementById("videoIframe");
+        var originalSrc = iframe.src;
+
+        myModal._element.addEventListener("hidden.bs.modal", function () {
+          // Pause the video by setting the src attribute to an empty string
+          iframe.src = "";
+        });
+
+        myModal._element.addEventListener("show.bs.modal", function () {
+          // Set the original video URL back when the modal is shown
+          iframe.src = originalSrc;
+        });
+      });
+    </script>
+    
+    <script>
+      // ------------------------------------------------------- //
+      //   Website Scroll Animations
+      // ------------------------------------------------------ //
+      AOS.init();
+      
+      // ------------------------------------------------------- //
+      //   Modal Video Channel Change
+      // ------------------------------------------------------ //
+      new ModalVideo('.js-modal-btn', {channel: 'youtube'});
+
+      // ------------------------------------------------------- //
+      //   Inject SVG Sprite - 
+      //   see more here 
+      //   https://css-tricks.com/ajaxing-svg-sprite/
+      // ------------------------------------------------------ //
+      function injectSvgSprite(path) {
+      
+          var ajax = new XMLHttpRequest();
+          ajax.open("GET", path, true);
+          ajax.send();
+          ajax.onload = function(e) {
+          var div = document.createElement("div");
+          div.className = 'd-none';
+          div.innerHTML = ajax.responseText;
+          document.body.insertBefore(div, document.body.childNodes[0]);
+          }
+      }
+      // this is set to BootstrapTemple website as you cannot 
+      // inject local SVG sprite (using only 'icons/orion-svg-sprite.svg' path)
+      // while using file:// protocol
+      // pls don't forget to change to your domain :)
+      injectSvgSprite('https://bootstraptemple.com/files/icons/orion-svg-sprite.svg'); 
+      
+    </script>
+    <!-- Font Awesome-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  </body>
+</html>
